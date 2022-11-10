@@ -43,6 +43,11 @@ export default function Home() {
   return (
     <div className="flex flex-col w-screen px-5 h-screen bg-[#1A1A1A] justify-center items-center">
       <Head>
+      <link rel="manifest" href="manifest.json" />
+        <meta name="theme-color" content="#1a1a1a" />
+        <link rel="apple-touch-icon" href="/images/maskable_icon_x96.png" />
+        <meta name="apple-mobile-web-app-status-bar" content="#1a1a1a" />
+        <meta name="description" content="Mobile web app with nextjs"></meta>
         <title>Quiz App</title>
       </Head>
       {showScore ? (
