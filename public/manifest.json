@@ -3,7 +3,7 @@
     "short_name": "QuizPwa",
     "theme_color": "#1a1a1a",
     "background_color": "#1a1a1a",
-    "start_url": "https://quiz-nextjs-wine.vercel.app/",
+    "start_url": "/",
     "lang": "fr",
     "display": "standalone",
     "orientation": "portrait",
